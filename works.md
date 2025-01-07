@@ -7,10 +7,12 @@
 データレイヤすべて（MoodleやDiscordへのログインの実装等）と設定画面のUIの設計を担当しました。
 
 詳細は[こちら](https://qiita.com/Punyo/items/15a8d9fb42ec37f57280)
+
 #### 使用技術
 - Jetpack Compose
 - Ktor
 - Node.js
+
 #### リンク
 - [Qiitaでの紹介記事](https://qiita.com/Punyo/items/15a8d9fb42ec37f57280)
 ### NITechSearch：名工大の講義室使用状況検索アプリ
@@ -21,15 +23,19 @@
 #### 使用技術
 - Jetpack Compose 
 - Retrofit
+
 #### リンク
 - [GitHub](https://github.com/Punyo/NITechVacancyViewer)
 - [Google Play](https://play.google.com/store/apps/details?id=com.punyo.nitechvacancyviewer)
 
 ## 2021
 ### 単語帳アプリ
+
 #### 概要
+
 #### 使用技術
 - Xamarin.Android
+
 ## 2020
 ### 時間割＆ToDo - 時間割、ToDoリスト
 ![screenshot1](assets\works_jikanwariandtodo_screenshot1.png)
@@ -40,5 +46,6 @@
 
 #### 使用技術
 - Unity
+
 #### リンク
 - ~~Google Play~~ 配信停止済み
