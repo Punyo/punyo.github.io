@@ -1,6 +1,6 @@
 # これまでの成果物
 ## 2024
-### TaskMate（[第2回 C0deハッカソン with pixiv](https://x.com/pixiv/corp/status/1864218084682461636)にて制作）
+### TaskMate（[第2回 C0deハッカソン with pixiv](https://x.com/pixiv_corp/status/1864218084682461636)にて制作）
 <div style="display: flex; align-items: center;">
 <video src="assets/works/taskmate/assignmentscreen.mp4" controls  width="180"></video>
   <img src="assets/works/taskmate/settings.png" width="180" >
