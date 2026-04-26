@@ -1,0 +1,107 @@
+[
+  {
+    "date": "2017",
+    "title": "プログラミングを始める",
+    "summary": "MinecraftのMod開発への興味をきっかけにJavaの学習を開始"
+  },
+  {
+    "date": "2017",
+    "title": "Androidアプリ開発を始める",
+    "summary": "1週間のAndroidアプリ開発イベントへの参加をきっかけに学習を開始"
+  },
+  {
+    "date": "2018",
+    "title": "C#を書き始める",
+    "summary": "Unityを用いた1週間のゲーム開発イベントへの参加をきっかけにC#の学習を開始",
+    "points": [
+      "Xamarin.AndroidやWinFormsを用いた開発についても学習"
+    ]
+  },
+  {
+    "date": "2019/03",
+    "title": "Google Playにて開発者アカウントを開設"
+  },
+  {
+    "date": "2020",
+    "title": "C#を用いたMod/外部ツール開発を開始",
+    "summary": "Unity/WinFormsでの「From The Depths」用Mod/外部ツール開発",
+    "points": [
+      "開発元のガイドラインに従いながら，dnSpyを用いてゲームを解析",
+      "作成したModをSteam Workshopにて公開",
+      "日本語/英語を用いて作成したModのサポートを行う"
+    ],
+    "links": [
+      {
+        "label": "From The Depths ストアページ",
+        "url": "https://store.steampowered.com/app/268650/From_the_Depths/?l=japanese"
+      }
+    ]
+  },
+  {
+    "date": "2023/04/01",
+    "title": "名古屋工業大学 工学部 情報工学科 入学"
+  },
+  {
+    "date": "2024/12",
+    "title": "第2回 C0deハッカソン with pixiv",
+    "summary": "短期集中実践型インターン",
+    "points": [
+      "3日間のハッカソン形式でのAndroidアプリ開発を経験",
+      "アプリのUIとAzure Functions/Cosmos DBを用いたバックエンドの実装を担当"
+    ],
+    "links": [
+      {
+        "label": "詳細",
+        "url": "https://qiita.com/Punyo/items/15a8d9fb42ec37f57280"
+      }
+    ]
+  },
+  {
+    "date": "2025/08/22 ~ 2025/08/24",
+    "title": "インターン（クラシル株式会社）",
+    "summary": "短期集中実践型インターン",
+    "points": [
+      "3日間のハッカソン形式でのAndroidアプリ開発を経験",
+      "アプリのUIとAzure Functions/Cosmos DBを用いたバックエンドの実装を担当"
+    ],
+    "links": [
+      {
+        "label": "詳細",
+        "url": "https://talent.supporterz.jp/events/cbb0a02c-5f7f-4869-b20e-09fbe63f46a8/"
+      }
+    ]
+  },
+  {
+    "date": "2025/09/01 ~ 2025/09/09",
+    "title": "インターン（サイボウズ株式会社）",
+    "summary": "インターンシップ2025 Android実務型コース",
+    "points": [
+      "グループウェア「Garoonモバイル for Android」の開発を経験",
+      "WebView製の画面をネイティブUIに置き換える実装をインターン生3人によるモブプログラミングで実施",
+      "新規実装部分へのユニットテスト/スクリーンショットテストの追加を実施"
+    ],
+    "links": [
+      {
+        "label": "詳細",
+        "url": "https://www.slideshare.net/slideshow/2025-android/277713672#10"
+      }
+    ]
+  },
+  {
+    "date": "2025/09/16 ~ ",
+    "title": "インターン（株式会社ドワンゴ）",
+    "summary": "ニコニコ生放送Androidアプリエンジニアインターンシップ",
+    "points": [
+      "バグ修正，仕様書への追従から新機能追加，既存UIのデザイン刷新までの幅広いタスクを担当",
+      "実装→PR作成→企画/デザイナーの社員さんとの協働による実装修正→本番環境投入までの流れを一貫して実施",
+      "Charlesを用いた特定状態/Responseでの挙動の確認や，Claude Codeの実戦での運用を経験",
+      "Slackを用いた働き方や，フルリモート特有のコミュニケーションの大切さを学習"
+    ],
+    "links": [
+      {
+        "label": "詳細",
+        "url": "https://web.archive.org/web/20250603081717/https://files.speakerdeck.com/presentations/e0592a519703475a8c1fbeaff511bf5b/dwango_engineer_internship.pdf"
+      }
+    ]
+  }
+]

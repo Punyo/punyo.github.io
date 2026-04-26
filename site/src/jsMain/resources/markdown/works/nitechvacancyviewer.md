@@ -1,24 +1,29 @@
-# NITechSearch：名工大の講義室使用状況検索アプリ
+---
+layout: .components.layouts.MarkdownLayout
+title: NITechSearch：名工大の講義室使用状況検索アプリ
+---
 
-## はじめに
+## NITechSearch：名工大の講義室使用状況検索アプリ
+
+### はじめに
 このページでは、2024年8月～9月に制作を行い、同年10月に学内向けに[Google Play](https://play.google.com/store/apps/details?id=com.punyo.nitechvacancyviewer)にてリリースした「NITechSearch：名工大の講義室使用状況検索アプリ」の紹介を行います。
 
-## 制作したアプリについて
-### 内容
+### 制作したアプリについて
+#### 内容
 <div style="display: flex; justify-content: space-between; align-items: center;">
-  <img src="../assets/works/nitechvacancyviewer/featuregraphic1.png" width="49%" >
-  <img src="../assets/works/nitechvacancyviewer/featuregraphic2.png" width="49%" >
+  <img src="/works/nitechvacancyviewer/featuregraphic1.png" width="49%" >
+  <img src="/works/nitechvacancyviewer/featuregraphic2.png" width="49%" >
 </div>
 <br>
 事前に数日分の講義室の予約状況を大学のサーバーから取得して端末内に保存し、現在空室になっている講義室と建物別の空室の数を（現在の予約状況が保存されている限り）ログインなどの追加操作を挟まずにリアルタイムで確認できるアプリを制作しました。
 また、今日の講義室の予約状況と使用時間を部屋別に確認することもできます。
 
 <div style="display: flex; align-items: center;">
-<video src="../assets/works/nitechvacancyviewer/video.mp4" controls  width="180"></video>
+<video src="/works/nitechvacancyviewer/video.mp4" controls  width="180"></video>
 </div>
 
 
-### 動機
+#### 動機
 筆者は以前から「学内システムの情報を使って何かできないかなあ...？」と考えていました. 
 ちょうどその時、SNSで弊学学生による以下のような投稿を見かけました. 
 なお、以下の文章は原文から一部改変したものとなります.
@@ -47,18 +52,18 @@
 検証によって得られたログインまでの詳細を以下の図に示します。
 （括弧内のダブルクォーテーションで囲まれた文字列はそれらのメッセージ内での名称を表しています）
 
-![認証概略図](../assets/works/nitechvacancyviewer/authchart.png)
+![認証概略図](/works/nitechvacancyviewer/authchart.png)
 
 これらを踏まえて、RetrofitとJsoupを用いて認証とHTMLの解析を実装しました。
 
 前述したものをすべて実装した後、学内システムにアクセスするための認証情報をユーザーに要求するログイン画面、Tinkを用いて保存時に認証情報を暗号化する機能、Roomを用いて取得した予約情報を内部のDBに保存する機能を実装して、最終的に講義室の予約情報を取得する処理は以下のフローチャートのようになりました。
 
-![フローチャート](../assets/works/nitechvacancyviewer/flowchart.png)
+![フローチャート](/works/nitechvacancyviewer/flowchart.png)
 
-## さいごに
+### さいごに
 最後にAndroidアプリを作ってから期間が大きく空いていたため、制作前に現在広く使われるライブラリや実装についての学習を行いました。これらの過程のおかげでブランクを埋められただけではなく、学習後に以前の成果物のコードを見直すことにより [肥大化したMainActivity](https://github.com/Punyo/AndroidApp/blob/master/AndroidApp/MainActivity.cs) など、高校生の時に書いたコードの問題点を実感することができました。
 
-UIデザインに関しても、Material Design 3を取り入れたり、学内でよく使われている青色を基調としたデザインを採用するなど、[以前のアプリ](https://punyo.github.io/assets/works/jikanwariandtodo/screenshot1.png) よりもさらに配慮ができたと感じています。
+UIデザインに関しても、Material Design 3を取り入れたり、学内でよく使われている青色を基調としたデザインを採用するなど、[以前のアプリ](/works/jikanwariandtodo/screenshot1.png) よりもさらに配慮ができたと感じています。
 
 さらに、アプリをリリース後、Android Vitalsを活用してユーザーの端末で発生したクラッシュの原因を分析することで、実務に近い経験を積むことができました。
 
