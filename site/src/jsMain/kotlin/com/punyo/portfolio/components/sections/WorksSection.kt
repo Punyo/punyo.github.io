@@ -5,7 +5,6 @@ import com.punyo.portfolio.components.ui.cardModifier
 import com.punyo.portfolio.components.ui.cardTitleModifier
 import com.punyo.portfolio.components.ui.linkTextModifier
 import com.punyo.portfolio.components.widgets.ExternalLink
-import com.punyo.portfolio.toSitePalette
 import com.varabyte.kobweb.compose.css.FontWeight
 import com.varabyte.kobweb.compose.css.TextDecorationLine
 import com.varabyte.kobweb.compose.foundation.layout.Column
@@ -20,7 +19,6 @@ import com.varabyte.kobweb.silk.theme.colors.palette.color
 import com.varabyte.kobweb.silk.theme.colors.palette.toPalette
 import org.jetbrains.compose.web.css.*
 import org.jetbrains.compose.web.dom.*
-import org.w3c.dom.HTMLElement
 
 sealed class WorkMedia {
     data class Image(val src: String, val alt: String = "") : WorkMedia()

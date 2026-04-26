@@ -1,7 +1,11 @@
 package com.punyo.portfolio.components.sections
 
 import androidx.compose.runtime.*
+import com.punyo.portfolio.components.widgets.IconButton
+import com.punyo.portfolio.toSitePalette
 import com.varabyte.kobweb.browser.dom.ElementTarget
+import com.varabyte.kobweb.compose.css.BoxSizing
+import com.varabyte.kobweb.compose.css.Overflow
 import com.varabyte.kobweb.compose.css.functions.clamp
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.foundation.layout.Row
@@ -22,6 +26,7 @@ import com.varabyte.kobweb.silk.components.overlay.Overlay
 import com.varabyte.kobweb.silk.components.overlay.OverlayVars
 import com.varabyte.kobweb.silk.components.overlay.PopupPlacement
 import com.varabyte.kobweb.silk.components.overlay.Tooltip
+import com.varabyte.kobweb.silk.components.text.SpanText
 import com.varabyte.kobweb.silk.style.CssStyle
 import com.varabyte.kobweb.silk.style.animation.Keyframes
 import com.varabyte.kobweb.silk.style.animation.toAnimation
@@ -32,16 +37,6 @@ import com.varabyte.kobweb.silk.style.breakpoint.displayUntil
 import com.varabyte.kobweb.silk.style.toModifier
 import com.varabyte.kobweb.silk.theme.colors.ColorMode
 import org.jetbrains.compose.web.css.*
-import com.punyo.portfolio.components.widgets.IconButton
-import com.punyo.portfolio.toSitePalette
-import com.varabyte.kobweb.compose.css.BoxSizing
-import com.varabyte.kobweb.compose.css.Overflow
-import com.varabyte.kobweb.compose.css.functions.RadialGradient
-import com.varabyte.kobweb.silk.components.icons.CircleIcon
-import com.varabyte.kobweb.silk.components.text.SpanText
-import com.varabyte.kobweb.silk.theme.shapes.Circle
-import com.varabyte.kobweb.silk.theme.shapes.clip
-import org.jetbrains.compose.web.dom.Text
 
 val NavHeaderStyle = CssStyle.base {
     Modifier.fillMaxWidth().padding(1.cssRem)
