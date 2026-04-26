@@ -20,7 +20,6 @@ import com.varabyte.kobweb.core.init.InitRoute
 import com.varabyte.kobweb.core.init.InitRouteContext
 import com.varabyte.kobweb.core.layout.Layout
 import org.jetbrains.compose.web.css.cssRem
-import kotlin.js.Date
 
 @InitRoute
 fun initHomePage(ctx: InitRouteContext) {
@@ -35,7 +34,7 @@ fun HomePage() {
         BioSection(
             name = "Punyo",
             affiliation = "Department of Computer Science, Nagoya Institute of Technology",
-            message = "キーボードをゆるゆるしばきつづけて早${Date().getFullYear() - 2017 - 1}年 機械いじりとおさんぽがすき",
+            message = "日々キーボードをしばいている名古屋の学生 機械いじりとおさんぽとずんだもんがすきです",
             avatarSrc = "/avatar.png",
             wakaTimeProfileUrl = "https://wakatime.com/@Punyo",
             wakaTimeBadgeSrc = "https://wakatime.com/badge/user/0bcd2543-94ea-40a0-a737-bb2f87523850.svg",

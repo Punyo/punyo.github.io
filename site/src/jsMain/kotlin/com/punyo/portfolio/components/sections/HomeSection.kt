@@ -187,7 +187,7 @@ fun CertificationSection(certifications: List<HomeCertification>) {
                 Thead {
                     Tr {
                         Th(Modifier.padding(0.4.cssRem).textAlign(TextAlign.Start).toAttrs()) { Text("資格名") }
-                        Th(Modifier.padding(0.4.cssRem).textAlign(TextAlign.Start).toAttrs()) { Text("取得時期") }
+                        Th(Modifier.padding(0.4.cssRem).textAlign(TextAlign.Start).toAttrs()) { Text("取得") }
                     }
                 }
                 Tbody {
