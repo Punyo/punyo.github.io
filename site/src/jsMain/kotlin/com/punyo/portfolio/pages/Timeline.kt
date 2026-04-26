@@ -5,7 +5,6 @@ import com.punyo.portfolio.components.layouts.PageLayoutData
 import com.punyo.portfolio.components.sections.TimelineEntries
 import com.punyo.portfolio.components.sections.TimelineEntry
 import com.punyo.portfolio.components.sections.TimelineLink
-import com.punyo.portfolio.components.sections.TimelineStatus
 import com.punyo.portfolio.components.ui.pageTitleModifier
 import com.varabyte.kobweb.compose.foundation.layout.Column
 import com.varabyte.kobweb.compose.ui.Modifier
@@ -53,10 +52,8 @@ fun TimelinePage() {
         H1(pageTitleModifier().toAttrs()) {
             Text("Timeline")
         }
-        when {
-            loadError != null -> TimelineStatus(loadError!!)
-            entries == null -> TimelineStatus("読み込み中")
-            else -> TimelineEntries(entries!!)
+        entries?.let {
+            TimelineEntries(it)
         }
     }
 }

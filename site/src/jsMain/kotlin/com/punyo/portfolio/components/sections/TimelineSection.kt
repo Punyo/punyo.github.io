@@ -148,18 +148,3 @@ private fun TimelineItem(entry: TimelineEntry, isLast: Boolean) {
         }
     }
 }
-
-@Composable
-fun TimelineStatus(message: String) {
-    Div(
-        Modifier
-            .padding(1.cssRem)
-            .borderRadius(0.5.cssRem)
-            .backgroundColor(ColorMode.current.toSitePalette().nearBackground)
-            .border(1.px, LineStyle.Solid, ColorMode.current.toSitePalette().cobweb)
-            .color(ColorMode.current.toPalette().color.toRgb().copyf(alpha = 0.78f))
-            .toAttrs()
-    ) {
-        Text(message)
-    }
-}
