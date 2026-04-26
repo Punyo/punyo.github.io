@@ -43,15 +43,20 @@ val NavHeaderStyle = CssStyle.base {
 }
 
 @Composable
-private fun NavLink(path: String, text: String) {
-    Link(path, text, variant = UndecoratedLinkVariant.then(UncoloredLinkVariant))
+private fun NavLink(path: String, text: String, onClick: (() -> Unit)? = null) {
+    Link(
+        path,
+        text,
+        modifier = if (onClick != null) Modifier.onClick { onClick() } else Modifier,
+        variant = UndecoratedLinkVariant.then(UncoloredLinkVariant)
+    )
 }
 
 @Composable
-private fun MenuItems() {
-    NavLink("/", "Home")
-    NavLink("/timeline", "Timeline")
-    NavLink("/works", "Works")
+private fun MenuItems(onItemClick: (() -> Unit)? = null) {
+    NavLink("/", "Home", onClick = onItemClick)
+    NavLink("/timeline", "Timeline", onClick = onItemClick)
+    NavLink("/works", "Works", onClick = onItemClick)
 }
 
 @Composable
@@ -188,7 +193,7 @@ private fun SideMenu(menuState: SideMenuState, close: () -> Unit, onAnimationEnd
             ) {
                 CloseButton(onClick = { close() })
                 Column(Modifier.padding(right = 0.75.cssRem).gap(1.5.cssRem).fontSize(1.4.cssRem), horizontalAlignment = Alignment.End) {
-                    MenuItems()
+                    MenuItems(onItemClick = close)
                 }
             }
         }
