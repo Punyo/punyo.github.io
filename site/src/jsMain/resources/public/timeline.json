@@ -42,12 +42,26 @@
     "title": "名古屋工業大学 工学部 情報工学科 入学"
   },
   {
-    "date": "2024/12",
-    "title": "第2回 C0deハッカソン with pixiv",
-    "summary": "短期集中実践型インターン",
+    "date": "2023/12",
+    "title": "第1回 C0deハッカソン with pixiv",
+    "summary": "所属する課外団体内でのハッカソン",
     "points": [
       "3日間のハッカソン形式でのAndroidアプリ開発を経験",
       "アプリのUIとAzure Functions/Cosmos DBを用いたバックエンドの実装を担当"
+    ]
+  },
+  {
+    "date": "2024/08",
+    "title": "Kotlinを書き始める",
+    "summary": "View中心のAndroidアプリ開発の知識を更新するためにKotlinの学習を開始"
+  },
+  {
+    "date": "2024/12",
+    "title": "第2回 C0deハッカソン with pixiv",
+    "summary": "所属する課外団体内でのハッカソン",
+    "points": [
+      "Moodleから未提出/提出済み課題と期限を一覧表示し，期限前に指定アプリをロックするAndroidアプリを開発",
+      "アプリのデータレイヤ全体と設定画面UIを担当．チームリーダーも初経験"
     ],
     "links": [
       {
