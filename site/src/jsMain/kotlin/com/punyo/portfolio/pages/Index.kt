@@ -57,8 +57,8 @@ fun HomePage() {
         )
         CertificationSection(
             certifications = listOf(
+                HomeCertification(name = "TOEIC Listening & Reading Test (Score:910)", date = "2026/06"),
                 HomeCertification(name = "応用情報技術者試験", date = "2025/12"),
-                HomeCertification(name = "TOEIC Listening & Reading Test (Score:945)", date = "2024/04"),
                 HomeCertification(name = "実用英語技能検定 準1級", date = "2022/03"),
             )
         )
